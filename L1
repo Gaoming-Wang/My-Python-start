@@ -1,0 +1,28 @@
+#单行注释
+"""多行注释
+   多行注释
+   多行注释"""
+namea="milky"
+#py定义变量名直接变量名+内容即可，不过变量名只能以下划线和字母开头，字符串用""锁住，数字则不用
+nameb="genius"
+a="4"
+groupa=namea+a
+#可用变量相加表示变量，不过只能用同类型的变量相加
+groupb=nameb+a
+for i in range(3):
+    #:表示从属关系，即令下面的语句属于上面
+    print (groupa)
+    print (groupb[2:7])
+    print (groupb[0:7:2])
+    print (groupb[::-1])
+    print (groupb[::-2])
+"""print语句：形式是print(内容)，内容必须用括号括起来，可在内容后面加[]来截取字符串，格式(类似于MATLAB)是\(\是换行符)
+[头下标:尾下标:步长(即间距)]"""
+#同大多数的编程语言一样，py的默认记数是从0开始的，故中括号的头下标要考虑到(不知道为什么尾下标不用)
+"""py3.7版本的变量类型:共6种::complex
+Number(数字)  分为四类：整型(整数):int  浮点型(小数):float  真伪型:bool(分为True和False，作数字时True=1，False=0)  复数型:complex
+String(字符串)
+List(列表)
+Tuble(元组)
+Sets(集合)
+Dictionary(字典)"""
